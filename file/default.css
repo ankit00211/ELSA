@@ -106,51 +106,25 @@ a {
   color: #ff4f81;
   font-weight: bold;
 }
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
 
-#wrap {
-  overflow: hidden;
-}
-
-#canvas {
-  width: 100% !important;
-  height: auto !important;
-}
-
-#text {
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-#message-box {
-  width: 100%;
-  left: 0;
-  text-align: center;
-}
+/* MOBILE RESPONSIVE */
 
 @media screen and (max-width: 768px) {
 
   #wrap {
-    height: auto;
-  }
-
-  #canvas {
-    margin-top: 180px;
-    transform: scale(0.9);
+    min-height: 100vh;
   }
 
   #text {
-    width: 90%;
-    top: 3%;
+    width: 88%;
+    left: 6%;
+    top: 8%;
   }
 
   #code {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 16px;
   }
 
 }
